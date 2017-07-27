@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="客戶系統"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="帳號"/>
+        <EditText
+            android:id="@+id/txtid"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="姓名"/>
+        <EditText
+            android:id="@+id/txtname"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="電話"/>
+        <EditText
+            android:id="@+id/txtphone"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="郵件"/>
+        <EditText
+            android:id="@+id/txtemail"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26dp"
+            android:text="地址"/>
+        <EditText
+            android:id="@+id/txtAddr"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="26dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="6"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnTop"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:text="TOP"/>
+        <Button
+            android:id="@+id/btnPre"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:text="Pre"/>
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="NEXT"/>
+        <Button
+            android:id="@+id/btnLast"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="LAST"/>
+        <Button
+            android:id="@+id/btnAll"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="24dp"
+            android:text="ALL"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
